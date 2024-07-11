@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 201, 115);
+}
+
+button{
+    background-color: dodgerblue;
+    width: 100%;
+    color: white;
+    border: none;
+    padding: 0.3rem;
+    cursor: pointer;
+    border-radius: 4rem;
+    font-size: 0.8rem;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 0.5rem;
+    max-width: 40vw;
+    padding: 1rem;
+}
+
+.card-container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.list{
+    margin-left:5rem;
+    width: 20rem;
+}
+
+
+li:nth-child(2){
+    text-decoration: line-through;
+    background-color: gainsboro;
+
+}
+
+
+
+.form-container{
+   display: flex;
+   gap: 1rem;
+   padding: 1rem;
+}
+
+.card-header{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+
+input{
+    padding: 0.3rem;
+}
+
+.button{
+    display: flex;
+    gap: 1rem;
+}
